@@ -1,71 +1,72 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿/*
+    COLOR PALETTE
+    #F0F7EE = Mint Cream        White           Text color 
+    #3A3549 = English Violet    Purple          Text background
+    #26232E = Raisin Black      Purple/Black    Background 
+    #464058 = Independence      Light Purple    Headers/footer background
+    #AF8D86 = Rosy Brown        Ligth Brown     Notation
+*/
 
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+/* GLOBAL STYLES
+ --------------------------*/
+body{
+    color: #343434;
+}
+img {
+    width: 300px;
 }
 
-/* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #FFE66D;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+a:hover {
+    text-decoration: none;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+/* Profile 
+ --------------------------*/
+header {
+    background: #2F3061;
+    color: #F7FFF7;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+/* Projects 
+ --------------------------*/
+.projects {
+    background: #F7FFF7;
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+.projects a {
+    color: #2f3061;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.projects .btn {
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+.projects .btn:hover {
+    background: #2F306180;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+
+/* Work Experience 
+ --------------------------*/
+.work {
+    background: #A1C6D7;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+/* Education
+ --------------------------*/
+
+
+/* Contact Info
+ --------------------------*/
+footer {
+    background: #343434;
+    color: #F7FFF7;
 }
