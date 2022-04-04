@@ -19,35 +19,53 @@ main {
   background: #26232E;
 }
 
+
 /*      PROFILE
 ------------------------*/
 .profile {
     background: grey;
     height:250px;
-    margin: 20px 0 20px
+    margin: 20px 0 20px;
+    border: solid;
+    border-color: lightgrey;
+}
+
+.prof-icon-cont {
+    display: inline-block;
+}
+
+.prof-text-cont {
+    display: inline-block;
+}
+
+.prof-icon {
+    width: 200px;
+    border: solid;
+    border-color: lightblue;
 }
 
 /*      CARDS & ROW
 ------------------------*/
 .row {
     margin: 10px 0 10px;
-    height: 300px;
 }
 
 .card-header {
     background: #464058;
     padding: 5px 20px;
+    margin: 0;
 }
 
 .card-body {
     padding: 20px;
+    height: 200px;
+    background: #3A3549;
 }
 
 
 /*      SOCIALS
 ------------------------*/
 .socials { 
-    background: #3A3549;
     width: 300px;
     margin-right: 20px;
 }
@@ -57,17 +75,17 @@ main {
 }
 
 .social-lbl {
-  display: block;
-  padding-bottom: 10px;
-  padding-left: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
+
 
 /*      ABOUT ME
 ------------------------*/
 .about {
-  background: #3A3549;
-  width: 800px;
-  margin-left: 20px;
+    width: 800px;
+    margin-left: 20px;
 }
 
 
