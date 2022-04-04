@@ -19,13 +19,17 @@ main {
   background: #26232E;
 }
 
+hr {
+    border: solid;
+    color: lightgrey;
+}
 
 /*      PROFILE
 ------------------------*/
 .profile {
-    background: grey;
-    height:250px;
-    margin: 20px 0 20px;
+    background: #3A3549;
+    height: 250px;
+    margin: 70px 0 50px;
     border: solid;
     border-color: lightgrey;
 }
@@ -47,7 +51,7 @@ main {
 /*      CARDS & ROW
 ------------------------*/
 .row {
-    margin: 10px 0 10px;
+    margin: 10px 0 50px;
 }
 
 .card-header {
@@ -89,6 +93,12 @@ main {
 }
 
 
+/*        RUST
+------------------------*/
+
+.rust {
+    background: lightgreen;
+}
 
 /*
     html {
