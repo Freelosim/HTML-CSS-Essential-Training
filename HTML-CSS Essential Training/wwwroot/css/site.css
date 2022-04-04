@@ -6,67 +6,93 @@
     #464058 = Independence      Light Purple    Headers/footer background
     #AF8D86 = Rosy Brown        Ligth Brown     Notation
 */
-
-/* GLOBAL STYLES
- --------------------------*/
-body{
-    color: #343434;
-}
-img {
-    width: 300px;
+* {
+    color: #f0f7ee;
 }
 
-a {
-    color: #FFE66D;
+body {
+    background: #26232e;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", Arial, sans-serif;
 }
 
-a:hover {
-    text-decoration: none;
+h2 {
+    background: #464058;
+    border-radius: 5px;
+    padding: 5px;
 }
 
-/* Profile 
- --------------------------*/
 header {
-    background: #2F3061;
-    color: #F7FFF7;
+    background: #464058;
+    height: 125px;
+    border-bottom: solid;
+    border-color: grey;
+    border-width: 1px;
 }
 
-/* Projects 
- --------------------------*/
-.projects {
-    background: #F7FFF7;
+main {
+    width: 1140px;
+    margin: 0 auto;
 }
 
-.projects a {
-    color: #2f3061;
+.card {
+    background: #3a3549;
+    border-radius: 5px;
 }
 
-.projects .btn {
-    color: #F7FFF7;
-    background: #2F3061;
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 4px;
+.c1 {
+    width: 250px;
+    height: 200px;
 }
 
-.projects .btn:hover {
-    background: #2F306180;
+.c2 {
+    width: 500px;
+    height: 420px;
 }
 
-
-/* Work Experience 
- --------------------------*/
-.work {
-    background: #A1C6D7;
+.cardS {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
 }
 
-/* Education
- --------------------------*/
+.cardL {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/* Contact Info
- --------------------------*/
-footer {
-    background: #343434;
-    color: #F7FFF7;
+.logo {
+    width: 100px;
+}
+
+.top {
+    background: #3a3549;
+    border: solid;
+    border-color: grey;
+    margin-top: 20px;
+}
+
+.top-text {
+    padding: 0 5px 0;
+    margin: 10px;
+    display: inline-block;
+    border: solid;
+    border-color: grey;
+}
+
+.flag {
+    margin: 10px;
+    padding: 0 5px 0;
+    display: inline-block;
+    border: solid;
+    border-color: grey;
+}
+
+.icon {
+    width: 200px;
 }
