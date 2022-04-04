@@ -1,98 +1,82 @@
 ﻿/*
     COLOR PALETTE
-    #F0F7EE = Mint Cream        White           Text color 
     #3A3549 = English Violet    Purple          Text background
     #26232E = Raisin Black      Purple/Black    Background 
     #464058 = Independence      Light Purple    Headers/footer background
     #AF8D86 = Rosy Brown        Ligth Brown     Notation
 */
-* {
-    color: #f0f7ee;
-}
 
+/*      GLOBAL
+------------------------*/
 body {
-    background: #26232e;
-    margin: 0px;
-    padding: 0px;
-    font-family: "Ubuntu", Arial, sans-serif;
-}
-
-h2 {
-    background: #464058;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-header {
-    background: #464058;
-    height: 125px;
-    border-bottom: solid;
-    border-color: grey;
-    border-width: 1px;
+  background: #26232E;
+  color: #ffffff;
 }
 
 main {
-    width: 1140px;
-    margin: 0 auto;
+  width: 1140px;
+  margin: 0 auto;
+  background: #26232E;
 }
 
-.card {
-    background: #3a3549;
-    border-radius: 5px;
+/*      PROFILE
+------------------------*/
+.profile {
+    background: grey;
+    height:250px;
+    margin: 20px 0 20px
 }
 
-.c1 {
-    width: 250px;
-    height: 200px;
-}
-
-.c2 {
-    width: 500px;
-    height: 420px;
-}
-
-.cardS {
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%;
-}
-
-.cardL {
-    flex: 0 0 66.66667%;
-    max-width: 66.66667%;
-}
-
+/*      CARDS & ROW
+------------------------*/
 .row {
-    display: flex;
-    flex-wrap: wrap;
+    margin: 10px 0 10px;
+    height: 300px;
 }
 
-.logo {
-    width: 100px;
+.card-header {
+    background: #464058;
+    padding: 5px 20px;
 }
 
-.top {
-    background: #3a3549;
-    border: solid;
-    border-color: grey;
-    margin-top: 20px;
+.card-body {
+    padding: 20px;
 }
 
-.top-text {
-    padding: 0 5px 0;
-    margin: 10px;
-    display: inline-block;
-    border: solid;
-    border-color: grey;
+
+/*      SOCIALS
+------------------------*/
+.socials { 
+    background: #3A3549;
+    width: 300px;
+    margin-right: 20px;
 }
 
-.flag {
-    margin: 10px;
-    padding: 0 5px 0;
-    display: inline-block;
-    border: solid;
-    border-color: grey;
+.social-icon {
+    width: 25px;
 }
 
-.icon {
-    width: 200px;
+.social-lbl {
+  display: block;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+/*      ABOUT ME
+------------------------*/
+.about {
+  background: #3A3549;
+  width: 800px;
+  margin-left: 20px;
+}
+
+
+
+/*
+    html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
