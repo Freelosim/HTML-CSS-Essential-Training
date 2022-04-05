@@ -22,6 +22,7 @@ main {
 hr {
     border: solid;
     color: lightgrey;
+    border-radius: 20px;
 }
 
 /*      PROFILE
